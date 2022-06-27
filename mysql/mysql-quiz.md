@@ -973,7 +973,7 @@ Table name: superheroes
 
 - [ ] 1 CREATE VIEW v1 2 SELECT \* FROM t1 3 WHERE col1 &gt; 10;
 - [ ] 1 CREATE VIEW v1 2 BEGIN 3 SELECT \* FROM t1 4 END
-- [ ] 1 CREATE VIEW v1 AS 2 SELECT \* FROM t1;
+- [x] 1 CREATE VIEW v1 AS 2 SELECT \* FROM t1;
 - [ ] 1 CREATE VIEW v1 AS 2 BEGIN 3 SELECT \* FROM t1 4 END;
 
 #### Q101. A table Item has a Boolean field endOfLife and a field makeYear of type YEAR(4). How can you set the Boolean to true for all Items that have been made before 2019?A table Item has a Boolean field endOfLife and a field makeYear of type YEAR(4). How can you set the Boolean to true for all Items that have been made before 2019?
